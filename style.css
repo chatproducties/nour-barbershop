@@ -66,6 +66,7 @@ ul {
 
 .section {
     padding: 6rem 0;
+    scroll-margin-top: 80px;
 }
 
 .text-center {
@@ -681,13 +682,53 @@ ul {
 
     .hero-title {
         font-size: 3rem;
+        margin-bottom: 2rem;
     }
 
     .hero-actions {
         flex-direction: column;
     }
+    
+    .hero-actions .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
 
     .section {
         padding: 4rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    
+    .hero-title {
+        font-size: 2.25rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.1;
+    }
+    
+    .about-stats {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .stat-item {
+        align-items: flex-start;
+    }
+    
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .service-card {
+        padding: 2rem 1.5rem;
     }
 }
