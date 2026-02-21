@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour Barbershop | Sint-Oedenrode</title>
+    <meta name="description"
+        content="Nour Barbershop in Sint-Oedenrode. Jouw vertrouwde adres voor authentiek vakwerk: een strakke look, perfect getrimde baard, of klassieke scheerbeurt.">
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-link">
+                <!-- User provided logo -->
+                <div class="logo-placeholder" style="display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-cut" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+                    <span class="logo">Nour<span class="logo-accent">.</span></span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#about">Over Ons</a>
+                <a href="#services">Diensten</a>
+                <a href="#pricing">Prijzen</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="tel:+31644441664" class="btn btn-primary nav-cta"><i class="fas fa-phone-alt ms-1"
+                    style="margin-right: 8px;"></i> Bel voor afspraak</a>
+
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="#about" class="mobile-link">Over Ons</a>
+            <a href="#services" class="mobile-link">Diensten</a>
+            <a href="#pricing" class="mobile-link">Prijzen</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="tel:+31644441664" class="mobile-link accent-link"><i class="fas fa-phone-alt ms-1"
+                    style="margin-right: 8px;"></i> Bel voor afspraak</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle fade-in-up">Traditioneel vakmanschap. Moderne stijl.</p>
+            <h1 class="hero-title fade-in-up delay-1">Nour Barbershop</h1>
+            <div class="hero-actions fade-in-up delay-2">
+                <a href="tel:+31644441664" class="btn btn-primary btn-large"><i class="fas fa-phone-alt ms-1"
+                        style="margin-right: 8px;"></i> Bel nu (06 44441664)</a>
+                <a href="#services" class="btn btn-secondary btn-large">Onze Diensten</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container layout-grid-2">
+            <div class="about-text scroll-reveal left">
+                <h2 class="section-title">Meester in het Vak</h2>
+                <div class="title-separator"></div>
+                <p>Nour Barbershop in Sint-Oedenrode staat voor passie, precisie en de perfecte snit. Of je nu langs
+                    komt voor een strakke fade, een klassieke scheerbeurt of het trimmen van je baard, je bent hier in
+                    goede handen.</p>
+                <p>Onder het genot van een goede sfeer zorgen we ervoor dat je er weer fris en scherp uitziet. Kwaliteit
+                    en persoonlijke aandacht staan centraal.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-scissors"></i>
+                        <span>Vakkundige Snit</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-chair"></i>
+                        <span>Ontspannen Sfeer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image scroll-reveal right">
+                <div class="image-wrapper glass-card">
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Barbershop Interior" class="rounded-img" />
+                    <div class="image-badge">Sint-Oedenrode</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Pricing -->
+    <section class="section services dark-bg" id="services">
+        <div class="container">
+            <div class="section-header text-center scroll-reveal bottom">
+                <h2 class="section-title">Diensten & Prijzen</h2>
+                <div class="title-separator mx-auto"></div>
+                <p class="section-subtitle">Premium verzorging voor de moderne man.</p>
+            </div>
+
+            <div class="pricing-grid scroll-reveal bottom delay-1" id="pricing">
+                <!-- Service Card 1 -->
+                <div class="service-card glass-card">
+                    <div class="service-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Knippen</h3>
+                    <p>Op maat gesneden voor jouw gezicht en stijl. Wassen, knippen en stijlen met premium producten.
+                    </p>
+                    <div class="service-price">
+                        <span>€ 22,50</span>
+                    </div>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="service-card glass-card">
+                    <div class="service-icon"><i class="fas fa-broom"></i></div>
+                    <h3>Baard Trimmen</h3>
+                    <p>Contouren strak maken, lengte bijwerken en verzorgen met voedende baardolie.</p>
+                    <div class="service-price">
+                        <span>€ 7,50</span>
+                    </div>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="service-card glass-card">
+                    <div class="service-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Knippen & Baard</h3>
+                    <p>De ultieme verwennerij. Compleet pakket met haarknippen en strakke baard/scheerbeurt.</p>
+                    <div class="service-price">
+                        <span>€ 30,00</span>
+                    </div>
+                </div>
+                <!-- Service Card 4 (Added extra) -->
+                <div class="service-card glass-card">
+                    <div class="service-icon"><i class="fas fa-child"></i></div>
+                    <h3>Kinderen (Tot 12 jr)</h3>
+                    <p>Stoere kapsels voor de jongste mannen. Inclusief wassen en stylen.</p>
+                    <div class="service-price">
+                        <span>€ 18,50</span>
+                    </div>
+                </div>
+                <!-- Service Card 5 (Added extra) -->
+                <div class="service-card glass-card">
+                    <div class="service-icon"><i class="fas fa-razor"></i></div>
+                    <h3>Scheren (Hot Towel)</h3>
+                    <p>Klassieke hot towel scheerbeurt met open mes voor het gladste resultaat.</p>
+                    <div class="service-price">
+                        <span>€ 15,00</span>
+                    </div>
+                </div>
+                <!-- Service Card 6 (Added extra) -->
+                <div class="service-card glass-card">
+                    <div class="service-icon"><i class="fas fa-spray-can"></i></div>
+                    <h3>Zwart Masker</h3>
+                    <p>Diepe reiniging van de poriën met een verkoelend en verfrissend black peeling gezichtsmasker.</p>
+                    <div class="service-price">
+                        <span>€ 10,00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 scroll-reveal bottom delay-2">
+                <a href="tel:+31644441664" class="btn btn-outline"><i class="fas fa-phone-alt"
+                        style="margin-right: 8px;"></i> Bel voor een afspraak</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info / Contact -->
+    <section class="section contact" id="contact">
+        <div class="container layout-grid-2">
+            <!-- Opening Hours -->
+            <div class="hours-card glass-card scroll-reveal left">
+                <h3>Openingstijden</h3>
+                <div class="title-separator"></div>
+                <ul class="hours-list">
+                    <li><span class="day">Maandag</span> <span class="time closed">Gesloten</span></li>
+                    <li><span class="day">Dinsdag</span> <span class="time">09:00 - 18:00</span></li>
+                    <li><span class="day">Woensdag</span> <span class="time">09:00 - 18:00</span></li>
+                    <li><span class="day">Donderdag</span> <span class="time">09:00 - 18:00</span></li>
+                    <li><span class="day">Vrijdag</span> <span class="time">09:00 - 20:00</span></li>
+                    <li><span class="day">Zaterdag</span> <span class="time">09:00 - 17:00</span></li>
+                    <li><span class="day">Zondag</span> <span class="time closed">Gesloten</span></li>
+                </ul>
+            </div>
+            <!-- Location Details -->
+            <div class="contact-card glass-card scroll-reveal right">
+                <h3>Contact & Locatie</h3>
+                <div class="title-separator"></div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-text">
+                            <strong>Adres</strong>
+                            <p>Kerkplein 5A<br>5492 AN Sint-Oedenrode</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-text">
+                            <strong>Telefoon</strong>
+                            <p><a href="tel:+31644441664">06 44441664</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-text">
+                            <strong>E-mail</strong>
+                            <p><a href="mailto:nour.barbershop80@gmail.com">nour.barbershop80@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-link mt-3">
+                    <a href="https://maps.google.com/?q=Kerkplein+5A,+5492+AN+Sint-Oedenrode" target="_blank"
+                        rel="noopener" class="btn btn-secondary w-full">
+                        Route plannen <i class="fas fa-external-link-alt ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer dark-bg border-top">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>Nour<span class="logo-accent">.</span></h2>
+                    <p>De premium barbershop in Sint-Oedenrode voor een perfecte snit en klassieke scheerbeurt.</p>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; <span id="currentYear"></span> Nour Barbershop. Alle rechten voorbehouden.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+    <!-- Booking SaaS Widget (Uitgecommentarieerd voor productie totdat backend live is) -->
+    <!-- <script src="http://localhost:3000/api/widget?shop_id=shop_nour123"></script> -->
+</body>
+
+</html>
